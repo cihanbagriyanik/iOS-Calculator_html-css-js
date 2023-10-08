@@ -27,26 +27,6 @@ const numberElArray = [
   number5El, number6El, number7El, number8El, number9El
 ];
 
-// OnKeyDown
-// acEl.onkeydown = (tus) => {
-//   if (tus.keyCode === 12) {
-//     acEl.addEventListener('click', () => {
-//       setStrAsValue('0');
-//       valueStrInMemory = null;
-//       operatorInMemory = null;
-//     });
-//   }
-// };
-
-// number0El.onkeydown = (tus) => {
-//   if (tus.keyCode === 96) { 
-//     number0El.addEventListener('click', () => {
-//       handleNumberClick(i.toString());
-//     });
-//   }
-// }
-
-
 // variables
 let valueStrInMemory = null;
 let operatorInMemory = null;
@@ -113,9 +93,6 @@ const handleOperatorClick = (operation) => {
   operatorInMemory = operation;
   setStrAsValue('0');
 };
-
-
-
 
 // Add Event Listeners to functions
 acEl.addEventListener('click', () => {
